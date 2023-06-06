@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  app:
+    image: ekozhukhov/hw26
+    ports:
+      - 80:80
