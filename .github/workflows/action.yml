@@ -42,6 +42,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
+
           script: |
             cd hw26
             echo ${{ secrets.PASSWORD }} | sudo -S docker-compose up -d
